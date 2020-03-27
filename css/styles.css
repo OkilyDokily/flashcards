@@ -1,0 +1,55 @@
+
+.button {
+  border-radius: 5%;
+ 
+  height: 160px;
+  width: 285px;
+  cursor:pointer;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.term {
+  display:none;
+}
+
+.definition{
+  display:none;
+}
+
+.definition-enabled {
+  display:block;
+  margin: auto;
+  position: absolute;
+  width: 260px;
+  top: 10%;
+  left: 2%;
+}
+
+.term-enabled {
+  display:block;
+  margin: auto;
+  
+  position: absolute;
+  top: 15%;
+  left: 4%;
+}
+
+.term-mode{
+  color:white;
+  background-color: #337AB7;
+ 
+  
+}
+
+.definition-mode {  
+  border: 1px solid #337AB7;
+  background-color: white;
+  color: #337AB7;
+  font-weight: bold;
+ 
+ 
+}
+
+
+
