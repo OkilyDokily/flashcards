@@ -1,13 +1,8 @@
 
-.flex {
-  margin-top: 30px;
-  width:85%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.container {
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
   
 }
 .button {
@@ -17,8 +12,12 @@
   width: 285px;
   cursor:pointer;
   
-  margin-top: 20px;
+  
   text-align: center;
+}
+
+.button.term-enabled:active{
+  background-color: rgb(25, 78, 124);
 }
 
 .term {
@@ -45,7 +44,7 @@
 }
 
 .definition-mode {  
-  border: 1px solid #337AB7;
+  border: 1px solid  #337AB7;
   background-color: white;
   color: #337AB7;
   font-weight: bold;
