@@ -7,7 +7,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
+  
 }
 .button {
   border-radius: 5%;
@@ -16,38 +17,31 @@
   width: 285px;
   cursor:pointer;
   margin-right: 20px;
-  
+  margin-top: 20px;
   text-align: center;
 }
 
 .term {
   display:none;
-  margin-top: 30px;
+  margin: 0;
 }
 
 .definition{
   display:none;
-  margin-top: 30px;
+  margin:0;
 }
 
 .definition-enabled {
   display:block;
-  
-  
 }
 
 .term-enabled {
   display:block;
-  
-  
- 
 }
 
 .term-mode{
   color:white;
-  background-color: #337AB7;
- 
-  
+  background-color: #337AB7;  
 }
 
 .definition-mode {  
@@ -55,8 +49,12 @@
   background-color: white;
   color: #337AB7;
   font-weight: bold;
- 
- 
+}
+
+.flex-button{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
