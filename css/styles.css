@@ -1,16 +1,14 @@
 
-div.flex {
-  display: flex;
-  justify-content: center;
-}
 
 .grid-container {
+  width: 100%;
   margin-top: 20px;
   display:grid;
   grid-template-columns: 285px 285px 285px 285px;
  
   grid-auto-rows: 160px;
   grid-gap: 10px;
+  justify-content: center;
   
 }
 .button {
