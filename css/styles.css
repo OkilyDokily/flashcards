@@ -6,7 +6,7 @@ div.flex{
 
 .grid-container {
   width: 90%;
-  margin-top: 20px;
+ 
   display:grid;
   grid-template-columns: repeat(auto-fit, 285px);
  
@@ -26,9 +26,7 @@ div.flex{
   text-align: center;
 }
 
-.button.term-enabled:active{
-  background-color: rgb(25, 78, 124);
-}
+
 
 .term {
   display:none;
