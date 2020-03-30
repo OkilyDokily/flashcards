@@ -4,6 +4,10 @@ div.flex{
   justify-content: center;
 }
 
+.well {
+  padding-bottom: 5px;
+}
+
 .grid-container {
   width: 90%;
  
@@ -64,5 +68,20 @@ div.flex{
   justify-content: center;
 }
 
+
+@media (max-width:420px){
+  .grid-container {
+    width: 95%;
+   
+    display:grid;
+    grid-template-columns: 1fr;
+    
+  }
+
+  .well {
+    padding: 5px 9px;
+    margin-bottom: 5px;
+  }
+}
 
 
