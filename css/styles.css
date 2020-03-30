@@ -10,10 +10,8 @@ div.flex{
 
 .grid-container {
   width: 90%;
- 
   display:grid;
   grid-template-columns: repeat(auto-fit, 285px);
- 
   grid-auto-rows: 160px;
   grid-gap: 10px;
   justify-content: center;
@@ -21,16 +19,9 @@ div.flex{
 }
 .button {
   border-radius: 5%;
- 
-  /* height: 160px;
-  width: 285px; */
   cursor:pointer;
-  
-  
   text-align: center;
 }
-
-
 
 .term {
   display:none;
